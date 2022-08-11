@@ -9,7 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E09400A9-9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.Web", "src\SimpleApi.Web\SimpleApi.Web.csproj", "{E7712913-D04B-4F6B-ABF7-E12D878013FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi.UnitTests", "test\SimpleApi.UnitTests\SimpleApi.UnitTests.csproj", "{DE023CA8-65EA-48D1-BE17-D9E7249501EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi.UnitTests", "test\SimpleApi.UnitTests\SimpleApi.UnitTests.csproj", "{DE023CA8-65EA-48D1-BE17-D9E7249501EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7712B2E4-58A7-4769-9C9B-FD8F5FB713CD}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
